@@ -1,3 +1,29 @@
+@import './utilis/mixins';
+@import './blocks/stars';
+@import './blocks/content';
+@import './blocks/buy-button';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap'); /* stylelint-disable-line */
+
 body {
   margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card {
+  width: 200px;
+  height: 408px;
+
+  // background-color: grey;
+  border: 1px solid rgba(243, 243, 243, 1);
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  &__image {
+    display: block;
+    width: 160;
+    height: 134;
+    margin-inline: 19px;
+    margin-top: 32px;
+  }
 }
