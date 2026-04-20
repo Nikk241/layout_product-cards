@@ -15,8 +15,8 @@
     height: 16px;
     background-position: center;
     background-repeat: no-repeat;
-  }
-  &:not(:last-child) {
-    margin-right: 4px;
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
   }
 }
